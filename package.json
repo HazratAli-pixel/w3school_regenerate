@@ -1,0 +1,26 @@
+{
+  "name": "w3school_regenerate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website mirroring crawler for w3schools",
+  "scripts": {
+    "crawl": "ts-node src/crawl.ts",
+    "serve": "ts-node src/server.ts",
+    "dev": "npm run serve",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "express": "^5.1.0",
+    "p-limit": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
