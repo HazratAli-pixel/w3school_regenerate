@@ -5,6 +5,8 @@
   "description": "Static website mirroring crawler for w3schools",
   "scripts": {
     "crawl": "ts-node src/crawl.ts",
+    "prepare:vercel": "ts-node src/prepareVercelDeploy.ts",
+    "deploy:vercel": "npm run prepare:vercel && npx --yes --cache /tmp/vercel-npx-cache vercel@latest deploy --yes --scope hazratalipixels-projects --prod --force",
     "serve": "ts-node src/server.ts",
     "dev": "npm run serve",
     "typecheck": "tsc --noEmit"
