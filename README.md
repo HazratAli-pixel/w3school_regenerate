@@ -21,6 +21,7 @@ It crawls internal pages (same host only), saves HTML snapshots under a route-mi
   - `crawl-report.json`
 
 Each saved HTML file includes a top comment containing source URL and timestamp.
+Internal page links are rewritten as relative `index.html` paths, so pages can be opened directly from the `public/` folder and still navigate locally.
 Internal page links are rewritten to the local extensionless route, so browsing the mirror shows the URL path without source page types like `.asp`.
 
 ## Important limitations
@@ -73,6 +74,8 @@ Default server URL:
 
 - `http://localhost:4173`
 
+When served locally, `/section/index.html` requests are redirected to the cleaner `/section` route.
+
 ### Dev alias
 
 ```bash
@@ -83,6 +86,14 @@ npm run dev
 
 ```bash
 npm run typecheck
+```
+
+### Repair existing public links
+
+If you already generated files before this behavior was added, run:
+
+```bash
+npm run repair-links
 ```
 
 ## Project structure
