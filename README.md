@@ -13,6 +13,7 @@ It crawls internal pages (same host only), saves HTML snapshots under a route-mi
 - Removes URL fragments and deduplicates by canonical URL
 - Uses breadth-first crawling with configurable concurrency
 - Saves up to 300 HTML pages by default
+- Converts source page URLs like `.asp` or `.php` into extensionless local mirror routes
 - Writes:
   - `public/index.html` for homepage
   - route snapshots as `public/<route>/index.html`
@@ -20,6 +21,7 @@ It crawls internal pages (same host only), saves HTML snapshots under a route-mi
   - `crawl-report.json`
 
 Each saved HTML file includes a top comment containing source URL and timestamp.
+Internal page links are rewritten to the local extensionless route, so browsing the mirror shows the URL path without source page types like `.asp`.
 
 ## Important limitations
 

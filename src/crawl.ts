@@ -1,9 +1,9 @@
-import path from "node:path";
 import pLimit from "p-limit";
-import { writeTextFile, projectPath } from "./lib/fs";
-import { fetchHtmlPage } from "./lib/fetchPage";
 import { extractLinks } from "./lib/extractLinks";
+import { fetchHtmlPage } from "./lib/fetchPage";
+import { projectPath, writeTextFile } from "./lib/fs";
 import { routeToLocalPath } from "./lib/pathMap";
+import { rewriteInternalPageLinks } from "./lib/rewriteLinks";
 import { RobotsPolicy } from "./lib/robots";
 import { isSameHost, normalizeForCrawl, toCanonicalKey } from "./lib/url";
 
@@ -29,7 +29,7 @@ interface CrawlReport {
   collisions: number;
 }
 
-const BASE_URL = "https://www.w3schools.com/";
+const BASE_URL = "https://www.ntvbd.com/";
 const DEFAULT_MAX_PAGES = Number(process.env.MAX_PAGES ?? "300");
 const DEFAULT_CONCURRENCY = Number(process.env.CONCURRENCY ?? "3");
 
@@ -100,15 +100,20 @@ async function main(): Promise<void> {
     }
     localPathOwner.set(localRelativePath, canonicalKey);
 
+    const rewrittenHtml = rewriteInternalPageLinks(
+      fetched.html,
+      finalUrl,
+      base.host
+    );
     const snapshotComment = `<!-- mirrored static snapshot | source: ${finalUrl.toString()} | fetchedAt: ${new Date().toISOString()} -->\n`;
-    const withComment = `${snapshotComment}${fetched.html}`;
+    const withComment = `${snapshotComment}${rewrittenHtml}`;
     await writeTextFile(projectPath(localRelativePath), withComment);
 
     manifest.push({
       sourceUrl: finalUrl.toString(),
       canonicalUrl: canonicalKey,
       localPath: localRelativePath,
-      fetchedAt: new Date().toISOString()
+      fetchedAt: new Date().toISOString(),
     });
 
     const links = extractLinks(fetched.html);
@@ -125,7 +130,10 @@ async function main(): Promise<void> {
   };
 
   while (cursor < queue.length && manifest.length < DEFAULT_MAX_PAGES) {
-    const slots = Math.min(DEFAULT_CONCURRENCY, DEFAULT_MAX_PAGES - manifest.length);
+    const slots = Math.min(
+      DEFAULT_CONCURRENCY,
+      DEFAULT_MAX_PAGES - manifest.length
+    );
     const batch = queue.slice(cursor, cursor + slots);
     cursor += batch.length;
 
@@ -147,10 +155,13 @@ async function main(): Promise<void> {
     skippedExternal,
     skippedNonHtml,
     failedFetches,
-    collisions
+    collisions,
   };
 
-  await writeTextFile(projectPath("crawl-report.json"), JSON.stringify(report, null, 2));
+  await writeTextFile(
+    projectPath("crawl-report.json"),
+    JSON.stringify(report, null, 2)
+  );
 
   console.log(`Crawl complete: saved ${manifest.length} pages.`);
 }
