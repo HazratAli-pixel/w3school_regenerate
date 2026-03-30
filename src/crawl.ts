@@ -2,7 +2,7 @@ import pLimit from "p-limit";
 import { extractLinks } from "./lib/extractLinks";
 import { fetchHtmlPage } from "./lib/fetchPage";
 import { projectPath, writeTextFile } from "./lib/fs";
-import { routeToLocalPath } from "./lib/pathMap";
+import { normalizeOutputFolder, routeToLocalPath } from "./lib/pathMap";
 import { rewriteInternalPageLinks } from "./lib/rewriteLinks";
 import { RobotsPolicy } from "./lib/robots";
 import { isSameHost, normalizeForCrawl, toCanonicalKey } from "./lib/url";
@@ -18,6 +18,7 @@ interface CrawlReport {
   startedAt: string;
   finishedAt: string;
   baseUrl: string;
+  outputFolder: string;
   maxPages: number;
   concurrency: number;
   visitedCount: number;
@@ -29,9 +30,13 @@ interface CrawlReport {
   collisions: number;
 }
 
-const BASE_URL = "https://www.ntvbd.com/";
-const DEFAULT_MAX_PAGES = Number(process.env.MAX_PAGES ?? "300");
+const BASE_URL = process.env.BASE_URL ?? "https://bc-corporate.pages.dev/en";
+const DEFAULT_MAX_PAGES = Number(process.env.MAX_PAGES ?? "100");
 const DEFAULT_CONCURRENCY = Number(process.env.CONCURRENCY ?? "3");
+const OUTPUT_FOLDER = parseOutputFolderArg(
+  process.argv.slice(2),
+  process.env.OUTPUT_FOLDER
+);
 
 async function main(): Promise<void> {
   const startedAt = new Date().toISOString();
@@ -92,7 +97,10 @@ async function main(): Promise<void> {
       return;
     }
 
-    const localRelativePath = routeToLocalPath(finalUrl.pathname);
+    const localRelativePath = routeToLocalPath(
+      finalUrl.pathname,
+      OUTPUT_FOLDER
+    );
     const existingOwner = localPathOwner.get(localRelativePath);
     if (existingOwner && existingOwner !== canonicalKey) {
       collisions += 1;
@@ -103,7 +111,8 @@ async function main(): Promise<void> {
     const rewrittenHtml = rewriteInternalPageLinks(
       fetched.html,
       finalUrl,
-      base.host
+      base.host,
+      OUTPUT_FOLDER
     );
     const snapshotComment = `<!-- mirrored static snapshot | source: ${finalUrl.toString()} | fetchedAt: ${new Date().toISOString()} -->\n`;
     const withComment = `${snapshotComment}${rewrittenHtml}`;
@@ -147,6 +156,7 @@ async function main(): Promise<void> {
     startedAt,
     finishedAt: new Date().toISOString(),
     baseUrl: base.toString(),
+    outputFolder: OUTPUT_FOLDER,
     maxPages: DEFAULT_MAX_PAGES,
     concurrency: DEFAULT_CONCURRENCY,
     visitedCount: seen.size,
@@ -163,10 +173,41 @@ async function main(): Promise<void> {
     JSON.stringify(report, null, 2)
   );
 
-  console.log(`Crawl complete: saved ${manifest.length} pages.`);
+  const outputRoot =
+    OUTPUT_FOLDER === "root" ? "public/" : `public/${OUTPUT_FOLDER}/`;
+  console.log(
+    `Crawl complete: saved ${manifest.length} pages to ${outputRoot}`
+  );
 }
 
 void main().catch((error: unknown) => {
   console.error("Crawl failed", error);
   process.exitCode = 1;
 });
+
+function parseOutputFolderArg(argv: string[], envValue?: string): string {
+  for (let index = 0; index < argv.length; index += 1) {
+    const value = argv[index]?.trim();
+    if (!value) {
+      continue;
+    }
+
+    if (value === "--folder" || value === "--output-folder") {
+      return normalizeOutputFolder(argv[index + 1] ?? envValue);
+    }
+
+    if (value.startsWith("--folder=")) {
+      return normalizeOutputFolder(value.slice("--folder=".length));
+    }
+
+    if (value.startsWith("--output-folder=")) {
+      return normalizeOutputFolder(value.slice("--output-folder=".length));
+    }
+
+    if (!value.startsWith("-")) {
+      return normalizeOutputFolder(value);
+    }
+  }
+
+  return normalizeOutputFolder(envValue);
+}

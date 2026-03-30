@@ -4,7 +4,12 @@ import { isSameHost } from "./url";
 
 const DISALLOWED_SCHEMES = ["mailto:", "tel:", "javascript:"];
 
-export function rewriteInternalPageLinks(html: string, currentUrl: URL, baseHost: string): string {
+export function rewriteInternalPageLinks(
+  html: string,
+  currentUrl: URL,
+  baseHost: string,
+  outputFolder: string
+): string {
   const $ = load(html);
 
   $("a[href]").each((_, element) => {
@@ -13,7 +18,7 @@ export function rewriteInternalPageLinks(html: string, currentUrl: URL, baseHost
       return;
     }
 
-    const rewritten = rewriteHref(href, currentUrl, baseHost);
+    const rewritten = rewriteHref(href, currentUrl, baseHost, outputFolder);
     if (rewritten) {
       $(element).attr("href", rewritten);
     }
@@ -22,7 +27,12 @@ export function rewriteInternalPageLinks(html: string, currentUrl: URL, baseHost
   return $.html();
 }
 
-function rewriteHref(href: string, currentUrl: URL, baseHost: string): string | null {
+function rewriteHref(
+  href: string,
+  currentUrl: URL,
+  baseHost: string,
+  outputFolder: string
+): string | null {
   const trimmed = href.trim();
   if (!trimmed || trimmed.startsWith("#")) {
     return null;
@@ -52,5 +62,5 @@ function rewriteHref(href: string, currentUrl: URL, baseHost: string): string | 
     return resolved.toString();
   }
 
-  return `${pathnameToMirrorRoute(resolved.pathname)}${resolved.search}${resolved.hash}`;
+  return `${pathnameToMirrorRoute(resolved.pathname, outputFolder)}${resolved.search}${resolved.hash}`;
 }
