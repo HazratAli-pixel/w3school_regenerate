@@ -1,0 +1,15 @@
+{
+  "startedAt": "2026-03-30T17:22:39.802Z",
+  "finishedAt": "2026-03-30T17:22:45.732Z",
+  "baseUrl": "https://bc-corporate.pages.dev/en",
+  "outputFolder": "root",
+  "maxPages": 100,
+  "concurrency": 3,
+  "visitedCount": 1,
+  "savedCount": 0,
+  "skippedByRobots": 0,
+  "skippedExternal": 0,
+  "skippedNonHtml": 0,
+  "failedFetches": 1,
+  "collisions": 0
+}
