@@ -30,7 +30,7 @@ interface CrawlReport {
   collisions: number;
 }
 
-const BASE_URL = process.env.BASE_URL ?? "https://bc-corporate.pages.dev/en";
+const BASE_URL = process.env.BASE_URL ?? "https://brandcloud.co.jp";
 const DEFAULT_MAX_PAGES = Number(process.env.MAX_PAGES ?? "100");
 const DEFAULT_CONCURRENCY = Number(process.env.CONCURRENCY ?? "3");
 const OUTPUT_FOLDER = parseOutputFolderArg(

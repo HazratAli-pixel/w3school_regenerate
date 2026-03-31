@@ -1,1 +1,602 @@
-[]
+[
+  {
+    "sourceUrl": "https://brandcloud.co.jp/",
+    "canonicalUrl": "https://brandcloud.co.jp/",
+    "localPath": "public/index.html",
+    "fetchedAt": "2026-03-31T02:56:48.106Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/contact/",
+    "canonicalUrl": "https://brandcloud.co.jp/contact",
+    "localPath": "public/contact/index.html",
+    "fetchedAt": "2026-03-31T02:56:48.978Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/category/news/",
+    "canonicalUrl": "https://brandcloud.co.jp/category/news",
+    "localPath": "public/category/news/index.html",
+    "fetchedAt": "2026-03-31T02:56:49.924Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/",
+    "canonicalUrl": "https://brandcloud.co.jp/en",
+    "localPath": "public/en/index.html",
+    "fetchedAt": "2026-03-31T02:56:49.941Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/company/about/",
+    "canonicalUrl": "https://brandcloud.co.jp/company/about",
+    "localPath": "public/company/about/index.html",
+    "fetchedAt": "2026-03-31T02:56:50.421Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/sustainability/",
+    "canonicalUrl": "https://brandcloud.co.jp/sustainability",
+    "localPath": "public/sustainability/index.html",
+    "fetchedAt": "2026-03-31T02:56:50.682Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/company/difference/",
+    "canonicalUrl": "https://brandcloud.co.jp/company/difference",
+    "localPath": "public/company/difference/index.html",
+    "fetchedAt": "2026-03-31T02:56:50.907Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/company/message/",
+    "canonicalUrl": "https://brandcloud.co.jp/company/message",
+    "localPath": "public/company/message/index.html",
+    "fetchedAt": "2026-03-31T02:56:51.356Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/company/officer/",
+    "canonicalUrl": "https://brandcloud.co.jp/company/officer",
+    "localPath": "public/company/officer/index.html",
+    "fetchedAt": "2026-03-31T02:56:51.440Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/company/vision/",
+    "canonicalUrl": "https://brandcloud.co.jp/company/vision",
+    "localPath": "public/company/vision/index.html",
+    "fetchedAt": "2026-03-31T02:56:51.616Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/company/history/",
+    "canonicalUrl": "https://brandcloud.co.jp/company/history",
+    "localPath": "public/company/history/index.html",
+    "fetchedAt": "2026-03-31T02:56:52.155Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%96%e3%83%a9%e3%83%b3%e3%83%89%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e4%bc%9a%e9%95%b7%e3%81%ae%e4%ba%95%e5%8e%9f%e6%ad%a3%e9%9a%86%e3%80%81%e4%b8%80%e8%88%ac/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%96%e3%83%a9%e3%83%b3%e3%83%89%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e4%bc%9a%e9%95%b7%e3%81%ae%e4%ba%95%e5%8e%9f%e6%ad%a3%e9%9a%86%e3%80%81%e4%b8%80%e8%88%ac",
+    "localPath": "public/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E4%BC%9A%E9%95%B7%E3%81%AE%E4%BA%95%E5%8E%9F%E6%AD%A3%E9%9A%86%E3%80%81%E4%B8%80%E8%88%AC/index.html",
+    "fetchedAt": "2026-03-31T02:56:52.940Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/crazy-raccoon%e6%89%80%e5%b1%9e-%e7%ab%8b%e5%b7%9d%e9%81%b8%e6%89%8b%e3%80%81%e5%90%8c%e3%83%81%e3%83%bc%e3%83%a0%e3%81%ae%e3%82%b3%e3%83%bc%e3%83%81%e3%81%a8%e3%81%97%e3%81%a6%e3%80%8e%e3%82%b9/",
+    "canonicalUrl": "https://brandcloud.co.jp/crazy-raccoon%e6%89%80%e5%b1%9e-%e7%ab%8b%e5%b7%9d%e9%81%b8%e6%89%8b%e3%80%81%e5%90%8c%e3%83%81%e3%83%bc%e3%83%a0%e3%81%ae%e3%82%b3%e3%83%bc%e3%83%81%e3%81%a8%e3%81%97%e3%81%a6%e3%80%8e%e3%82%b9",
+    "localPath": "public/crazy-raccoon%E6%89%80%E5%B1%9E-%E7%AB%8B%E5%B7%9D%E9%81%B8%E6%89%8B%E3%80%81%E5%90%8C%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%81%E3%81%A8%E3%81%97%E3%81%A6%E3%80%8E%E3%82%B9/index.html",
+    "fetchedAt": "2026-03-31T02:56:52.960Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr_bcorp-seminar/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr_bcorp-seminar",
+    "localPath": "public/pr_bcorp-seminar/index.html",
+    "fetchedAt": "2026-03-31T02:56:53.750Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr-terrific-innovation/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr-terrific-innovation",
+    "localPath": "public/pr-terrific-innovation/index.html",
+    "fetchedAt": "2026-03-31T02:56:53.774Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr-knowledgelinksai_ver-2-2/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr-knowledgelinksai_ver-2-2",
+    "localPath": "public/pr-knowledgelinksai_ver-2-2/index.html",
+    "fetchedAt": "2026-03-31T02:56:54.018Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/notice20231207/",
+    "canonicalUrl": "https://brandcloud.co.jp/notice20231207",
+    "localPath": "public/notice20231207/index.html",
+    "fetchedAt": "2026-03-31T02:56:54.785Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b_2024/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b_2024",
+    "localPath": "public/%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E4%BC%91%E6%A5%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_2024/index.html",
+    "fetchedAt": "2026-03-31T02:56:54.794Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/radio20240828/",
+    "canonicalUrl": "https://brandcloud.co.jp/radio20240828",
+    "localPath": "public/radio20240828/index.html",
+    "fetchedAt": "2026-03-31T02:56:54.816Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/sales_manager_intervew_wantedly/",
+    "canonicalUrl": "https://brandcloud.co.jp/sales_manager_intervew_wantedly",
+    "localPath": "public/sales_manager_intervew_wantedly/index.html",
+    "fetchedAt": "2026-03-31T02:56:55.594Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/renewal/",
+    "canonicalUrl": "https://brandcloud.co.jp/renewal",
+    "localPath": "public/renewal/index.html",
+    "fetchedAt": "2026-03-31T02:56:55.631Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/summer-vacation-2023/",
+    "canonicalUrl": "https://brandcloud.co.jp/summer-vacation-2023",
+    "localPath": "public/summer-vacation-2023/index.html",
+    "fetchedAt": "2026-03-31T02:56:55.636Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/wantedly_employee-introduction/",
+    "canonicalUrl": "https://brandcloud.co.jp/wantedly_employee-introduction",
+    "localPath": "public/wantedly_employee-introduction/index.html",
+    "fetchedAt": "2026-03-31T02:56:56.534Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/newgraduateemployee_interview/",
+    "canonicalUrl": "https://brandcloud.co.jp/newgraduateemployee_interview",
+    "localPath": "public/newgraduateemployee_interview/index.html",
+    "fetchedAt": "2026-03-31T02:56:56.556Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/wantedly_development-department/",
+    "canonicalUrl": "https://brandcloud.co.jp/wantedly_development-department",
+    "localPath": "public/wantedly_development-department/index.html",
+    "fetchedAt": "2026-03-31T02:56:56.573Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/wantedly_philosophy/",
+    "canonicalUrl": "https://brandcloud.co.jp/wantedly_philosophy",
+    "localPath": "public/wantedly_philosophy/index.html",
+    "fetchedAt": "2026-03-31T02:56:57.417Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/sitemap/",
+    "canonicalUrl": "https://brandcloud.co.jp/sitemap",
+    "localPath": "public/sitemap/index.html",
+    "fetchedAt": "2026-03-31T02:56:58.320Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/privacy/",
+    "canonicalUrl": "https://brandcloud.co.jp/privacy",
+    "localPath": "public/privacy/index.html",
+    "fetchedAt": "2026-03-31T02:56:58.420Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/contact/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/contact",
+    "localPath": "public/en/contact/index.html",
+    "fetchedAt": "2026-03-31T02:56:59.204Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/category/news/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/category/news",
+    "localPath": "public/en/category/news/index.html",
+    "fetchedAt": "2026-03-31T02:56:59.936Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/crazy-raccoon%e6%89%80%e5%b1%9e-%e7%ab%8b%e5%b7%9d%e9%81%b8%e6%89%8b%e3%80%81%e4%b8%ad%e5%9b%bd%e5%a4%a7%e4%bc%9a%e3%80%8ckuaishou-fightclub-championship-vi%e3%80%8d%e3%81%ab%e5%87%ba%e5%a0%b4/",
+    "canonicalUrl": "https://brandcloud.co.jp/crazy-raccoon%e6%89%80%e5%b1%9e-%e7%ab%8b%e5%b7%9d%e9%81%b8%e6%89%8b%e3%80%81%e4%b8%ad%e5%9b%bd%e5%a4%a7%e4%bc%9a%e3%80%8ckuaishou-fightclub-championship-vi%e3%80%8d%e3%81%ab%e5%87%ba%e5%a0%b4",
+    "localPath": "public/crazy-raccoon%E6%89%80%E5%B1%9E-%E7%AB%8B%E5%B7%9D%E9%81%B8%E6%89%8B%E3%80%81%E4%B8%AD%E5%9B%BD%E5%A4%A7%E4%BC%9A%E3%80%8Ckuaishou-fightclub-championship-vi%E3%80%8D%E3%81%AB%E5%87%BA%E5%A0%B4/index.html",
+    "fetchedAt": "2026-03-31T02:57:00.660Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr-aio-llmo/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr-aio-llmo",
+    "localPath": "public/pr-aio-llmo/index.html",
+    "fetchedAt": "2026-03-31T02:57:01.428Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr-nikkan-spa/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr-nikkan-spa",
+    "localPath": "public/pr-nikkan-spa/index.html",
+    "fetchedAt": "2026-03-31T02:57:01.647Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr-evofrance2025/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr-evofrance2025",
+    "localPath": "public/pr-evofrance2025/index.html",
+    "fetchedAt": "2026-03-31T02:57:04.066Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/2026%e5%b9%b4%e5%8d%92%e6%a5%ad%e4%ba%88%e5%ae%9a%e8%80%85%e3%81%ae%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8%e3%82%92%e9%96%8b%e5%a7%8b/",
+    "canonicalUrl": "https://brandcloud.co.jp/2026%e5%b9%b4%e5%8d%92%e6%a5%ad%e4%ba%88%e5%ae%9a%e8%80%85%e3%81%ae%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8%e3%82%92%e9%96%8b%e5%a7%8b",
+    "localPath": "public/2026%E5%B9%B4%E5%8D%92%E6%A5%AD%E4%BA%88%E5%AE%9A%E8%80%85%E3%81%AE%E6%96%B0%E5%8D%92%E6%8E%A1%E7%94%A8%E3%82%92%E9%96%8B%E5%A7%8B/index.html",
+    "fetchedAt": "2026-03-31T02:57:07.068Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/knowledgelinksai_ver-2-1/",
+    "canonicalUrl": "https://brandcloud.co.jp/knowledgelinksai_ver-2-1",
+    "localPath": "public/knowledgelinksai_ver-2-1/index.html",
+    "fetchedAt": "2026-03-31T02:57:07.079Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr-employeebenefits-femtech/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr-employeebenefits-femtech",
+    "localPath": "public/pr-employeebenefits-femtech/index.html",
+    "fetchedAt": "2026-03-31T02:57:07.088Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e3%80%90%e6%8e%b2%e8%bc%89%e6%83%85%e5%a0%b1%e3%80%91%e3%83%8d%e3%83%83%e3%83%88%e3%81%ae%e8%aa%b9%e8%ac%97%e4%b8%ad%e5%82%b7%e3%80%81%e3%81%a9%e3%81%86%e9%98%b2%e3%81%90%ef%bc%9f/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e3%80%90%e6%8e%b2%e8%bc%89%e6%83%85%e5%a0%b1%e3%80%91%e3%83%8d%e3%83%83%e3%83%88%e3%81%ae%e8%aa%b9%e8%ac%97%e4%b8%ad%e5%82%b7%e3%80%81%e3%81%a9%e3%81%86%e9%98%b2%e3%81%90%ef%bc%9f",
+    "localPath": "public/%E3%80%90%E6%8E%B2%E8%BC%89%E6%83%85%E5%A0%B1%E3%80%91%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E8%AA%B9%E8%AC%97%E4%B8%AD%E5%82%B7%E3%80%81%E3%81%A9%E3%81%86%E9%98%B2%E3%81%90%EF%BC%9F/index.html",
+    "fetchedAt": "2026-03-31T02:57:08.957Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/ai%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%80%8c%e3%83%8a%e3%83%ac%e3%83%83%e3%82%b8%e3%83%aa%e3%83%b3%e3%82%af%e3%82%b9ai%e3%80%8d%e6%ad%a3%e5%bc%8f%e3%83%ad%e3%83%bc/",
+    "canonicalUrl": "https://brandcloud.co.jp/ai%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%80%8c%e3%83%8a%e3%83%ac%e3%83%83%e3%82%b8%e3%83%aa%e3%83%b3%e3%82%af%e3%82%b9ai%e3%80%8d%e6%ad%a3%e5%bc%8f%e3%83%ad%e3%83%bc",
+    "localPath": "public/ai%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%8C%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9ai%E3%80%8D%E6%AD%A3%E5%BC%8F%E3%83%AD%E3%83%BC/index.html",
+    "fetchedAt": "2026-03-31T02:57:08.966Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e3%80%8c%e5%9b%bd%e9%9a%9b%e8%aa%8d%e8%a8%bcb-corp%e8%aa%8d%e8%a8%bc%e5%8f%96%e5%be%97%e8%a8%98%e5%bf%b5%e3%82%bb%e3%83%9f%e3%83%8a%e3%83%bc%e3%80%8d%e3%82%a2%e3%83%bc%e3%82%ab%e3%82%a4%e3%83%96/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e3%80%8c%e5%9b%bd%e9%9a%9b%e8%aa%8d%e8%a8%bcb-corp%e8%aa%8d%e8%a8%bc%e5%8f%96%e5%be%97%e8%a8%98%e5%bf%b5%e3%82%bb%e3%83%9f%e3%83%8a%e3%83%bc%e3%80%8d%e3%82%a2%e3%83%bc%e3%82%ab%e3%82%a4%e3%83%96",
+    "localPath": "public/%E3%80%8C%E5%9B%BD%E9%9A%9B%E8%AA%8D%E8%A8%BCb-corp%E8%AA%8D%E8%A8%BC%E5%8F%96%E5%BE%97%E8%A8%98%E5%BF%B5%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E3%80%8D%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96/index.html",
+    "fetchedAt": "2026-03-31T02:57:09.046Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e3%80%8c%e3%83%8a%e3%83%ac%e3%83%83%e3%82%b8%e3%83%aa%e3%83%b3%e3%82%af%e3%82%b9ai-ver-1-5%e3%80%8d%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e3%80%8c%e3%83%8a%e3%83%ac%e3%83%83%e3%82%b8%e3%83%aa%e3%83%b3%e3%82%af%e3%82%b9ai-ver-1-5%e3%80%8d%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b",
+    "localPath": "public/%E3%80%8C%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9ai-ver-1-5%E3%80%8D%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.html",
+    "fetchedAt": "2026-03-31T02:57:10.196Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr_marketingexpo13/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr_marketingexpo13",
+    "localPath": "public/pr_marketingexpo13/index.html",
+    "fetchedAt": "2026-03-31T02:57:10.215Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr_international_modern_hospital_show2025/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr_international_modern_hospital_show2025",
+    "localPath": "public/pr_international_modern_hospital_show2025/index.html",
+    "fetchedAt": "2026-03-31T02:57:10.228Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr_b-corporation/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr_b-corporation",
+    "localPath": "public/pr_b-corporation/index.html",
+    "fetchedAt": "2026-03-31T02:57:11.768Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr_knowledgelinks_ai_20250516/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr_knowledgelinks_ai_20250516",
+    "localPath": "public/pr_knowledgelinks_ai_20250516/index.html",
+    "fetchedAt": "2026-03-31T02:57:12.018Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/marketing_expo_2025_summer/",
+    "canonicalUrl": "https://brandcloud.co.jp/marketing_expo_2025_summer",
+    "localPath": "public/marketing_expo_2025_summer/index.html",
+    "fetchedAt": "2026-03-31T02:57:12.029Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr_book_release/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr_book_release",
+    "localPath": "public/pr_book_release/index.html",
+    "fetchedAt": "2026-03-31T02:57:12.876Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/knowledgelinks_freetrial/",
+    "canonicalUrl": "https://brandcloud.co.jp/knowledgelinks_freetrial",
+    "localPath": "public/knowledgelinks_freetrial/index.html",
+    "fetchedAt": "2026-03-31T02:57:14.304Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/web-sns-expo_exhibition/",
+    "canonicalUrl": "https://brandcloud.co.jp/web-sns-expo_exhibition",
+    "localPath": "public/web-sns-expo_exhibition/index.html",
+    "fetchedAt": "2026-03-31T02:57:14.478Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/clinic_expo_exhibition/",
+    "canonicalUrl": "https://brandcloud.co.jp/clinic_expo_exhibition",
+    "localPath": "public/clinic_expo_exhibition/index.html",
+    "fetchedAt": "2026-03-31T02:57:14.495Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/casestudyfes2025/",
+    "canonicalUrl": "https://brandcloud.co.jp/casestudyfes2025",
+    "localPath": "public/casestudyfes2025/index.html",
+    "fetchedAt": "2026-03-31T02:57:15.413Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/event_exhibition/",
+    "canonicalUrl": "https://brandcloud.co.jp/event_exhibition",
+    "localPath": "public/event_exhibition/index.html",
+    "fetchedAt": "2026-03-31T02:57:16.315Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/16469/",
+    "canonicalUrl": "https://brandcloud.co.jp/16469",
+    "localPath": "public/16469/index.html",
+    "fetchedAt": "2026-03-31T02:57:17.717Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/digitalmarketingexpo_shutten/",
+    "canonicalUrl": "https://brandcloud.co.jp/digitalmarketingexpo_shutten",
+    "localPath": "public/digitalmarketingexpo_shutten/index.html",
+    "fetchedAt": "2026-03-31T02:57:17.994Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/wantedly-companyintrodoction/",
+    "canonicalUrl": "https://brandcloud.co.jp/wantedly-companyintrodoction",
+    "localPath": "public/wantedly-companyintrodoction/index.html",
+    "fetchedAt": "2026-03-31T02:57:18.003Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/news_20240827/",
+    "canonicalUrl": "https://brandcloud.co.jp/news_20240827",
+    "localPath": "public/news_20240827/index.html",
+    "fetchedAt": "2026-03-31T02:57:18.827Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/pr_taishi_syunin/",
+    "canonicalUrl": "https://brandcloud.co.jp/pr_taishi_syunin",
+    "localPath": "public/pr_taishi_syunin/index.html",
+    "fetchedAt": "2026-03-31T02:57:18.848Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/news_20240610/",
+    "canonicalUrl": "https://brandcloud.co.jp/news_20240610",
+    "localPath": "public/news_20240610/index.html",
+    "fetchedAt": "2026-03-31T02:57:19.829Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/news_20240628/",
+    "canonicalUrl": "https://brandcloud.co.jp/news_20240628",
+    "localPath": "public/news_20240628/index.html",
+    "fetchedAt": "2026-03-31T02:57:19.847Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/saiyo-20240419/",
+    "canonicalUrl": "https://brandcloud.co.jp/saiyo-20240419",
+    "localPath": "public/saiyo-20240419/index.html",
+    "fetchedAt": "2026-03-31T02:57:20.098Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/sustainability_20240313_2/",
+    "canonicalUrl": "https://brandcloud.co.jp/sustainability_20240313_2",
+    "localPath": "public/sustainability_20240313_2/index.html",
+    "fetchedAt": "2026-03-31T02:57:20.813Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/sustainability_20240313_1/",
+    "canonicalUrl": "https://brandcloud.co.jp/sustainability_20240313_1",
+    "localPath": "public/sustainability_20240313_1/index.html",
+    "fetchedAt": "2026-03-31T02:57:20.837Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business-20240325/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business-20240325",
+    "localPath": "public/new-business-20240325/index.html",
+    "fetchedAt": "2026-03-31T02:57:20.857Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business-20240229/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business-20240229",
+    "localPath": "public/new-business-20240229/index.html",
+    "fetchedAt": "2026-03-31T02:57:21.685Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/recruit202504/",
+    "canonicalUrl": "https://brandcloud.co.jp/recruit202504",
+    "localPath": "public/recruit202504/index.html",
+    "fetchedAt": "2026-03-31T02:57:21.747Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business-20240228/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business-20240228",
+    "localPath": "public/new-business-20240228/index.html",
+    "fetchedAt": "2026-03-31T02:57:21.762Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business",
+    "localPath": "public/new-business/index.html",
+    "fetchedAt": "2026-03-31T02:57:22.467Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business-2/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business-2",
+    "localPath": "public/new-business-2/index.html",
+    "fetchedAt": "2026-03-31T02:57:22.529Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/kazemonogatari/",
+    "canonicalUrl": "https://brandcloud.co.jp/kazemonogatari",
+    "localPath": "public/kazemonogatari/index.html",
+    "fetchedAt": "2026-03-31T02:57:23.267Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/recruitment-site/",
+    "canonicalUrl": "https://brandcloud.co.jp/recruitment-site",
+    "localPath": "public/recruitment-site/index.html",
+    "fetchedAt": "2026-03-31T02:57:23.288Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/lumine/",
+    "canonicalUrl": "https://brandcloud.co.jp/lumine",
+    "localPath": "public/lumine/index.html",
+    "fetchedAt": "2026-03-31T02:57:24.026Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/suntory/",
+    "canonicalUrl": "https://brandcloud.co.jp/suntory",
+    "localPath": "public/suntory/index.html",
+    "fetchedAt": "2026-03-31T02:57:24.052Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/representative-change/",
+    "canonicalUrl": "https://brandcloud.co.jp/representative-change",
+    "localPath": "public/representative-change/index.html",
+    "fetchedAt": "2026-03-31T02:57:24.808Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business-20230524/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business-20230524",
+    "localPath": "public/new-business-20230524/index.html",
+    "fetchedAt": "2026-03-31T02:57:24.897Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e3%82%b4%e3%83%bc%e3%83%ab%e3%83%87%e3%83%b3%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e3%82%b4%e3%83%bc%e3%83%ab%e3%83%87%e3%83%b3%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b",
+    "localPath": "public/%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF%E4%BC%91%E6%A5%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.html",
+    "fetchedAt": "2026-03-31T02:57:25.148Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e3%81%8a%e7%9b%86%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e3%81%8a%e7%9b%86%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b",
+    "localPath": "public/%E3%81%8A%E7%9B%86%E4%BC%91%E3%81%BF%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.html",
+    "fetchedAt": "2026-03-31T02:57:25.964Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business-20221014/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business-20221014",
+    "localPath": "public/new-business-20221014/index.html",
+    "fetchedAt": "2026-03-31T02:57:25.992Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business-20220801/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business-20220801",
+    "localPath": "public/new-business-20220801/index.html",
+    "fetchedAt": "2026-03-31T02:57:26.001Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e7%a4%be%e5%90%8d%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e7%a4%be%e5%90%8d%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b",
+    "localPath": "public/%E7%A4%BE%E5%90%8D%E5%A4%89%E6%9B%B4%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.html",
+    "fetchedAt": "2026-03-31T02:57:26.699Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e4%ba%8b%e5%8b%99%e6%89%80%e7%a7%bb%e8%bb%a2%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e4%ba%8b%e5%8b%99%e6%89%80%e7%a7%bb%e8%bb%a2%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b",
+    "localPath": "public/%E4%BA%8B%E5%8B%99%E6%89%80%E7%A7%BB%E8%BB%A2%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.html",
+    "fetchedAt": "2026-03-31T02:57:26.721Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business-20220701/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business-20220701",
+    "localPath": "public/new-business-20220701/index.html",
+    "fetchedAt": "2026-03-31T02:57:26.738Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e3%81%8a%e7%9b%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e3%81%8a%e7%9b%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3",
+    "localPath": "public/%E3%81%8A%E7%9B%86%E4%BC%91%E6%A5%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-3/index.html",
+    "fetchedAt": "2026-03-31T02:57:27.491Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-2/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-2",
+    "localPath": "public/%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E4%BC%91%E6%A5%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-2/index.html",
+    "fetchedAt": "2026-03-31T02:57:27.524Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-3",
+    "localPath": "public/%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E4%BC%91%E6%A5%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-3/index.html",
+    "fetchedAt": "2026-03-31T02:57:27.536Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e3%81%8a%e7%9b%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-2/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e3%81%8a%e7%9b%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-2",
+    "localPath": "public/%E3%81%8A%E7%9B%86%E4%BC%91%E6%A5%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-2/index.html",
+    "fetchedAt": "2026-03-31T02:57:28.256Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b",
+    "localPath": "public/%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E4%BC%91%E6%A5%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.html",
+    "fetchedAt": "2026-03-31T02:57:28.277Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/new-business-20201026/",
+    "canonicalUrl": "https://brandcloud.co.jp/new-business-20201026",
+    "localPath": "public/new-business-20201026/index.html",
+    "fetchedAt": "2026-03-31T02:57:28.304Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e3%81%8a%e7%9b%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e3%81%8a%e7%9b%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b",
+    "localPath": "public/%E3%81%8A%E7%9B%86%E4%BC%91%E6%A5%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.html",
+    "fetchedAt": "2026-03-31T02:57:29.107Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e9%9b%bb%e8%a9%b1%e7%95%aa%e5%8f%b7%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e9%9b%bb%e8%a9%b1%e7%95%aa%e5%8f%b7%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b",
+    "localPath": "public/%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%E5%A4%89%E6%9B%B4%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.html",
+    "fetchedAt": "2026-03-31T02:57:29.160Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/%e7%94%a3%e7%b5%8c%e6%96%b0%e8%81%9e%e3%81%ab%e3%81%a6%e7%b4%b9%e4%bb%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+    "canonicalUrl": "https://brandcloud.co.jp/%e7%94%a3%e7%b5%8c%e6%96%b0%e8%81%9e%e3%81%ab%e3%81%a6%e7%b4%b9%e4%bb%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82",
+    "localPath": "public/%E7%94%A3%E7%B5%8C%E6%96%B0%E8%81%9E%E3%81%AB%E3%81%A6%E7%B4%B9%E4%BB%8B%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82/index.html",
+    "fetchedAt": "2026-03-31T02:57:29.166Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/0401/",
+    "canonicalUrl": "https://brandcloud.co.jp/0401",
+    "localPath": "public/0401/index.html",
+    "fetchedAt": "2026-03-31T02:57:29.935Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/sustainability/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/sustainability",
+    "localPath": "public/en/sustainability/index.html",
+    "fetchedAt": "2026-03-31T02:57:31.330Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/company/about/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/company/about",
+    "localPath": "public/en/company/about/index.html",
+    "fetchedAt": "2026-03-31T02:57:32.546Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/company/difference/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/company/difference",
+    "localPath": "public/en/company/difference/index.html",
+    "fetchedAt": "2026-03-31T02:57:32.791Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/company/message/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/company/message",
+    "localPath": "public/en/company/message/index.html",
+    "fetchedAt": "2026-03-31T02:57:34.714Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/company/officer/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/company/officer",
+    "localPath": "public/en/company/officer/index.html",
+    "fetchedAt": "2026-03-31T02:57:34.929Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/company/vision/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/company/vision",
+    "localPath": "public/en/company/vision/index.html",
+    "fetchedAt": "2026-03-31T02:57:34.944Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/company/history/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/company/history",
+    "localPath": "public/en/company/history/index.html",
+    "fetchedAt": "2026-03-31T02:57:36.262Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/privacy/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/privacy",
+    "localPath": "public/en/privacy/index.html",
+    "fetchedAt": "2026-03-31T02:57:36.712Z"
+  },
+  {
+    "sourceUrl": "https://brandcloud.co.jp/en/sitemap/",
+    "canonicalUrl": "https://brandcloud.co.jp/en/sitemap",
+    "localPath": "public/en/sitemap/index.html",
+    "fetchedAt": "2026-03-31T02:57:37.250Z"
+  }
+]

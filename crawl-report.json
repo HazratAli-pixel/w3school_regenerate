@@ -1,15 +1,15 @@
 {
-  "startedAt": "2026-03-30T17:22:39.802Z",
-  "finishedAt": "2026-03-30T17:22:45.732Z",
-  "baseUrl": "https://bc-corporate.pages.dev/en",
+  "startedAt": "2026-03-31T02:56:45.930Z",
+  "finishedAt": "2026-03-31T02:57:37.258Z",
+  "baseUrl": "https://brandcloud.co.jp/",
   "outputFolder": "root",
   "maxPages": 100,
   "concurrency": 3,
-  "visitedCount": 1,
-  "savedCount": 0,
+  "visitedCount": 100,
+  "savedCount": 100,
   "skippedByRobots": 0,
   "skippedExternal": 0,
   "skippedNonHtml": 0,
-  "failedFetches": 1,
+  "failedFetches": 0,
   "collisions": 0
 }
